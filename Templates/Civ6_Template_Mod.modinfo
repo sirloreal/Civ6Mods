@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="159a54ce-7d1e-41ba-a5ea-c5874c1f3ec5" version="1">
+  <Properties>
+    <Name>Civ6_Template_Mod</Name>
+    <Description>Template modinfo file</Description>
+    <Teaser>Template modinfo file</Teaser>
+    <Authors>sirloreal</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <InGameActions>
+    <UpdateDatabase id="SQL_Changes">
+		<File>Civ6_Template_SQL_GameplayChanges.sql</File>
+	</UpdateDatabase>
+	<UpdateDatabase id="XML_GameplayChanges">
+		<File>Civ6_Template_XML_GameplayChanges.xml</File>
+	</UpdateDatabase>
+	<UpdateText id="XML_TextChanges">
+		<File>Civ6_Template_XML_TextChanges.xml</File>
+	</UpdateText>
+	<UpdateIcons id="XML_IconChanges">
+		<File>Civ6_Template_XML_NewIconDefinition.xml</File>
+	</UpdateIcons>
+	<ImportFiles id="Lua_Imports">
+      <File>Lua/NewScript.lua</File>
+    </ImportFiles>
+	<AddGameplayScripts id="GameplayTest">
+	  <File>Civ6_Template_GameplayScript.lua</File>
+	</AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>Civ6_Template_SQL_GameplayChanges.sql</File>
+    <File>Civ6_Template_XML_GameplayChanges.xml</File>
+    <File>Civ6_Template_XML_TextChanges.xml</File>
+    <File>Civ6_Template_XML_NewIconDefinition.xml</File>
+    <File>Civ6_Template_GameplayScript.lua</File>
+  </Files>
+</Mod>
