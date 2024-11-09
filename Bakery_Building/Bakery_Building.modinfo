@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="159a54ce-7d1e-41ba-a5ea-c5874c1f3ec5" version="1">
+  <Properties>
+    <Name>Bakery Building</Name>
+    <Description>Adds a Bakery Building to the game</Description>
+    <Teaser>Adds a Bakery Building to the game</Teaser>
+    <Authors>sirloreal</Authors>
+  </Properties>
+  <InGameActions>
+	<UpdateDatabase id="XML_GameplayChanges">
+		<File>Bakery_Building.xml</File>
+	</UpdateDatabase>
+	<UpdateText id="XML_TextChanges">
+	  <File>Bakery_Building_Text.xml</File>
+	</UpdateText>
+	<UpdateIcons id="Icons">
+      <File>Bakery_Building_Icons.xml</File>
+    </UpdateIcons>
+  </InGameActions>
+  <Files>
+    <File>Bakery_Building.xml</File>
+	<File>Bakery_Building_Text.xml</File>
+	<File>Bakery_Building_Icons.xml</File>
+  </Files>
+</Mod>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bakery Building Icons -->
+<!-- Author: Gary -->
+<GameData>
+  <IconDefinitions>
+    <Row Name="ICON_BUILDING_BAKERY_GRP" Atlas="ICON_ATLAS_BUILDINGS" Index="3"/>
+    <Row Name="ICON_BUILDING_BAKERY_GRP_FOW" Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="3"/>
+  </IconDefinitions>
+</GameData>

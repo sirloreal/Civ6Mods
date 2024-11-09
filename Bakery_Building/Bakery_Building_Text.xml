@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bakery Building Text -->
+<!-- Author: Gary -->
+<GameData>
+  <LocalizedText>
+    <Row tag="LOC_BUILDING_BAKERY_GRP_NAME" Language="en_US">
+	  <Text>Bakery</Text>
+	</Row>
+	<Row tag="LOC_BUILDING_BAKERY_GRP_DESCRIPTION" Language="en_US">
+	  <Text>This Bakery Example adds +2 food to a city.</Text>
+	</Row>
+  </LocalizedText>
+</GameData>
